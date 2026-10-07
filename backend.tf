@@ -8,8 +8,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "corp-terraform-state-bucket"
-    key    = "web-stack/production.tfstate"
+    bucket = "terraform-state-eqhsse-dr"
+    key    = "web-stack-demo/production.tfstate"
     region = "ap-southeast-1"
   }
 }
